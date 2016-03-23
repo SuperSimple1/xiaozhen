@@ -1,0 +1,167 @@
+/* 清除一些原有的多余样式 */
+/* default.css start */
+img,
+input,
+select {
+    vertical-align: middle;
+}
+
+html,
+body,
+div,
+ul,
+ol,
+li,
+form,
+address,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+label,
+dt, dd, dl,
+input,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+a, img {
+    border: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 文本 */
+html, input {
+    font-family: "微软雅黑", "黑体", "宋体", arial, sans-serif, simsun;
+}
+
+body, .layout, .block {
+    clear: both;
+    position: relative;
+}
+
+html,
+a,
+form,
+input,
+select,
+h3,
+h4,
+h5 {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+.hidetxt {
+    text-indent: -9999px;
+}
+
+/* 定位 */
+
+html {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.wrap {
+    width: 960px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+*html .clearfix {
+    height: 1%;
+}
+
+.fL {
+    float: left;
+}
+
+.fR {
+    float: right;
+}
+
+:focus {
+    outline: none;
+}
+
+a {
+    behavior: url(uvn_2010.htc)
+}
+
+
+.ui-tabs-hide{
+    display: none;
+}
+
+.orangeColor{
+  color: #f39800;	
+}
+.purple{
+	color: #aa89bd;
+}
+.purpleD{
+color:#634e82
+}
+.gray{
+color:#898989;
+}
+
+.grayDeep{
+	color:#626262;
+}
+
+
+.font14{
+	font-size:14px;
+}
+
+/* for IE7.0及以下版本*/
+/* for Firefox，IE8.0等 */　
+/* default.css end*/

@@ -1,0 +1,28 @@
+.news .events{   width:640px;    position:absolute;    left:15px;    top:25px}
+/*.events .newsShow{padding-left:35px}*/
+.events .newsShow .newsPic .box{border:1px solid #CCC;height:227px;padding:4px;width:389px;margin-bottom:14px}
+.events .newsShow .newsPic .picture{display:block;width:100%;height:215px}
+
+
+
+.events .newsList{width:389px;border: 1px solid #ccc;margin-top: 10px;}
+.events .eventsCont .newsList .item{display:block;height:60px;_height:64px}
+
+.events .eventsCont .newsList .item .newsHref{display:block;height:40px;_height:31px;line-height:20px;color:#333;margin-top: 15px;text-decoration:none}
+
+/*文字移动上去的颜色*/
+.events .eventsCont .newsList .item .newsHref:hover{color:#634e82}
+.sumb {
+	font-size: 50px;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+.newsPic{ overflow:hidden; position:relative;margin-top: 10px;}
+.newsShow{position:relative;overflow:hidden;height:250px}
